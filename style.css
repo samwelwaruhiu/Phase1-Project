@@ -1,0 +1,42 @@
+/*applicable to all html elements*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*style the 1st section*/
+.header{
+    min-height:  70vh;
+    width:  100%;
+    background-image: linear-gradient(rgba(17, 29, 75, 0.7),rgba(30, 44, 100, 0.7)),url(https://cdn.pixabay.com/photo/2019/08/06/17/03/comic-4388763__480.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*style the text*/
+.text{
+    width:  90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+
+}
+
+/*acess our h1*/
+.text h1{
+    font-size: 62px;
+
+}
+
+.text p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
