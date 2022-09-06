@@ -40,3 +40,90 @@
     font-size: 14px;
     color: #fff;
 }
+/*button for redirect*/
+
+.buttonFacts{
+    display: inline-block;
+    text-decoration: none;
+    color : white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+/*hover*/
+
+.buttonFacts:hover{
+    border: 1px solid red;
+    background: red;
+    transition: 0.7s;
+
+}
+
+.factssection{
+    min-height:  0vh;
+    margin-top: 5%;
+    
+    background-position: center;
+    background-size: cover;
+}
+ /*style button*/
+ .butttn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+ }
+
+ /*hovering at the button*/
+.butttn:hover{
+    background-color: red; /* Green */
+    color: white;
+}
+
+/*style the card section*/
+
+.mainsection{
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  background: none;
+  box-sizing: border-box;
+  height: 30vh;
+  flex-basis:  31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  
+}
+.content{
+    width: 100%;
+    color :blue;
+    font-size: 26px;
+    padding: 0 20px;
+    font-weight: 900;
+    opacity: 4.8;
+    margin-bottom: 10;
+}
+
+/*Style to redirect to comment section*/
+.buttonDirectToComments{
+    display: inline-block;
+    text-decoration: none;
+    color : red;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
