@@ -9,5 +9,12 @@ const init = () => {
 fetch('https://random-facts2.p.rapidapi.com/getfact', options)
 .then(resp => resp.json())
 .then(data => randomFacts(data))
+
+function randomFacts(newfact){
+    alert("Loading..")
+    const quotes = document.getElementById(`contentid`)
+    quotes.textContent = newfact.Fact;
+    
+}
 }
 document.addEventListener(`DOMContentLoaded`, init)
