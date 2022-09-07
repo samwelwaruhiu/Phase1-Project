@@ -10,6 +10,7 @@ const init = () => {
 const getAnotherFact = document.querySelector(`.butttn`)
 
 getAnotherFact.addEventListener(`click`, (e) => {
+e.preventDefault(); 
 
 fetch('https://random-facts2.p.rapidapi.com/getfact', options)
 .then(resp => resp.json())
