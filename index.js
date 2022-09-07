@@ -31,7 +31,11 @@ form.addEventListener(`submit` , (e) => {
     haveComments(cmt) 
 })
 
-
+const haveComments = (allcomments) => {
+    let ul = document.createElement('li')
+    ul.textContent = `${allcomments}`
+    document.getElementById('comments-list').appendChild(ul)
+}
 
 }
 
