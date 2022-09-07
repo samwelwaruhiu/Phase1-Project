@@ -41,6 +41,10 @@ const haveComments = (allcomments) => {
     document.getElementById('comments-list').appendChild(ul)
 }
 
+function handleDelete(e){
+    e.target.parentNode.remove();
+  }
+
 }
 
 document.addEventListener(`DOMContentLoaded`, init)
