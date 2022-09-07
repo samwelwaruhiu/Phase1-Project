@@ -6,6 +6,11 @@ const options = {
 	}
 };
 const init = () => {
+
+const getAnotherFact = document.querySelector(`.butttn`)
+
+getAnotherFact.addEventListener(`click`, (e) => {
+
 fetch('https://random-facts2.p.rapidapi.com/getfact', options)
 .then(resp => resp.json())
 .then(data => randomFacts(data))
@@ -16,5 +21,7 @@ function randomFacts(newfact){
     quotes.textContent = newfact.Fact;
     
 }
+})
 }
+
 document.addEventListener(`DOMContentLoaded`, init)
