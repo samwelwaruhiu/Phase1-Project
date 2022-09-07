@@ -23,6 +23,16 @@ function randomFacts(newfact){
     
 }
 })
+
+let form = document.querySelector(`form`)
+form.addEventListener(`submit` , (e) => {
+    e.preventDefault(e); 
+    let cmt = document.getElementById(`cmt`).value;
+    
+})
+
+
+
 }
 
 document.addEventListener(`DOMContentLoaded`, init)
