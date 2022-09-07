@@ -33,7 +33,11 @@ form.addEventListener(`submit` , (e) => {
 
 const haveComments = (allcomments) => {
     let ul = document.createElement('li')
+    let deletebutton = document.createElement(`button`)
+    
+    deletebutton.textContent = `  x   `
     ul.textContent = `${allcomments}`
+    ul.appendChild(deletebutton); 
     document.getElementById('comments-list').appendChild(ul)
 }
 
