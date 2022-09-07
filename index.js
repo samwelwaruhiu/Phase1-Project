@@ -8,6 +8,6 @@ const options = {
 const init = () => {
 fetch('https://random-facts2.p.rapidapi.com/getfact', options)
 .then(resp => resp.json())
-.then(data => console.log(data))
+.then(data => randomFacts(data))
 }
 document.addEventListener(`DOMContentLoaded`, init)
