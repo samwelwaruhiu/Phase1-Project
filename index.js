@@ -5,7 +5,9 @@ const options = {
 		'X-RapidAPI-Host': 'random-facts2.p.rapidapi.com'
 	}
 };
-
+const init = () => {
 fetch('https://random-facts2.p.rapidapi.com/getfact', options)
 .then(resp => resp.json())
 .then(data => console.log(data))
+}
+document.addEventListener(`DOMContentLoaded`, init)
