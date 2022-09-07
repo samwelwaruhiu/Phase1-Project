@@ -13,9 +13,9 @@ The name of the project is Facts Generator.
 
 ## Project Description
 
-The project is a simple,straight-forward and also engaging, where the user is able to do an event that yield the site to load different set of facts. The user is also given an opportunity to leave a comment on the site as well as delete the comment.
+The project is simple, straightforward, engaging and entertaining, where the user is  able to perform an event that causes the site to load a different set of facts. The user is also offered the option of leaving a comment on the site or deleting the comment.
 
-In my site I have been able to incorporate various eventlistners and I have also fetched the data it is displaying from a Public API.
+I was able to combine multiple eventlisteners into my site, and I also acquired the data it is displaying from a Public API.
 
 
 ## Technology Used
