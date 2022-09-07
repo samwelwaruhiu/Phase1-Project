@@ -7,3 +7,5 @@ const options = {
 };
 
 fetch('https://random-facts2.p.rapidapi.com/getfact', options)
+.then(resp => resp.json())
+.then(data => console.log(data))
