@@ -41,7 +41,7 @@ const haveComments = (allcomments) => {
     let ul = document.createElement('li') //make element for listing our comments
     let deletebutton = document.createElement(`button`) //create a deleting button
     deletebutton.addEventListener(`click`, handleDelete); //have an event listener which will have a callback function of deleting
-    deletebutton.textContent = `  x   ` //have the content you want it to be displayed on the button
+    deletebutton.textContent = `  DELETE   ` //have the content you want it to be displayed on the button
     ul.textContent = `${allcomments}` //the element of ul which you created takes in the content written
     ul.appendChild(deletebutton); //append the delete button
     document.getElementById('comments-list').appendChild(ul) //list comments
