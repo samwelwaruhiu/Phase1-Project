@@ -8,9 +8,9 @@
 
 /*style the 1st section*/
 .header{
-    min-height:  70vh;
+    min-height:  100vh;
     width:  100%;
-    background-image: linear-gradient(rgba(17, 29, 75, 0.7),rgba(30, 44, 100, 0.7)),url(https://cdn.pixabay.com/photo/2019/08/06/17/03/comic-4388763__480.png);
+    background-image: linear-gradient(rgba(17, 29, 75, 0.7),rgba(30, 44, 100, 0.7)),url(https://www.exceptionalsmiles.dental/wp-content/uploads/10-dental-facts-blog.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -48,8 +48,8 @@
     color : white;
     border: 1px solid white;
     padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
+    font-size: 33px;
+    background: black;
     position: relative;
     cursor: pointer;
 
@@ -65,44 +65,49 @@
 }
 
 .factssection{
-    min-height:  0vh;
+    min-height: 50vh;
     margin-top: 5%;
-    
+    background-image: url(https://www.macmillandictionary.com/external/slideshow/full/White_full.png);
     background-position: center;
     background-size: cover;
 }
  /*style button*/
  .butttn{
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+    background-color: orange;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: #008000;
+    cursor: pointer;
     display: inline-block;
-    font-size: 24px;
-    border-radius: 12px;
-    transition-duration: 0.4s;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 50px;
+    padding: 0 25px;
+    transition: all 200ms;
  }
 
  /*hovering at the button*/
 .butttn:hover{
-    background-color: red; /* Green */
-    color: white;
+        background-color: #AFE6C3;
+        transform: scale(1.05);
 }
 
 /*style the card section*/
 
 .mainsection{
-  margin-top: 4%;
-  display: flex;
-  justify-content: center;
-  background: none;
-  box-sizing: border-box;
-  height: 30vh;
-  flex-basis:  31%;
-  border-radius: 10px;
-  margin-bottom: 5%;
+    height :auto;
+    width: 700px;
+    background-color: #C2FBD7;
+    border-radius: 12px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-30%, -30%);
+    text-align: center;
+    padding: 0 40px 40px;
+    color: #333;
   
 }
 .content{
